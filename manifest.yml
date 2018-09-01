@@ -1,0 +1,8 @@
+---
+applications:
+- name: geoWebClient
+  random-route: true
+  path: target/geoWebSample-0.0.1-SNAPSHOT.jar
+  services:
+    - bse-service
+    - geoclient-service

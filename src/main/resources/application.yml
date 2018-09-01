@@ -1,0 +1,7 @@
+server:
+  port: 18080
+geoUrls:
+#  bseWmsUrl: ${vcap.services.bse-service.credentials.url}
+#  geoClientUrl: ${vcap.services.geoclient-service.credentials.url}
+  bseWmsUrl: http://www.osm-wms.de/
+  geoClientUrl: http://open.mapquestapi.com/geocoding/v1/address?key=KqU6mdM3Oej9PmNpL1AGAiVAKs3vYDDu
